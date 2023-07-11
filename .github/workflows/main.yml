@@ -1,7 +1,7 @@
-on:
+ on:
   schedule:
   - cron: '0/5 * * * *'  
-jobs:
+ jobs:
   my_job:
     name: deploy to staging
     runs-on: ubuntu-20.04
